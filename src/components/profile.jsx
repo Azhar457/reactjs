@@ -8,7 +8,7 @@ export default function Profile() {
           <div className="sm:w-1/3 mt-6 sm:mt-0 sm:mr-6">
             <img
               className="w-full h-auto rounded-lg shadow-lg"
-              src="/src/assets/avatar.png"
+              src="/avatar.png"
               alt="Profile"
               data-aos="fade-right"
               style={{ animationDuration: "1s", filter: "invert(1)" }}
