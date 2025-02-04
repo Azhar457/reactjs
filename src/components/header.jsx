@@ -23,7 +23,7 @@ export default function Header() {
           <div className="sm:w-1/3 mt-6 sm:mt-0 sm:ml-6">
             <img
               className="w-full h-auto rounded-lg shadow-lg"
-              src="/src/assets/astronaut_2.png"
+              src="/astronaut_2.png"
               alt="About Us"
               data-aos="fade-up"
               data-aos-duration="1000"
