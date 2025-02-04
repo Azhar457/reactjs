@@ -7,17 +7,17 @@ const projects = [
   {
     title: "Project 1",
     description: "Disusun Untuk memenuhi tugas mata kuliah ITW",
-    image: "/src/assets/projek1.jpg",
+    image: "/projek1.jpg",
   },
   {
     title: "Project 2",
     description: "Disusun Untuk memenuhi tugas mata kuliah ITW",
-    image: "/src/assets/projek2.jpg",
+    image: "/projek2.jpg",
   },
   {
     title: "Project 3",
     description: "Disusun Untuk memenuhi tugas mata kuliah PW",
-    image: "/src/assets/projek3.jpg",
+    image: "/projek3.jpg",
   },
 ];
 
