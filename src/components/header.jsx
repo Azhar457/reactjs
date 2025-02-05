@@ -1,5 +1,5 @@
 import React from "react";
-
+import astronaut from "../assets/astronaut_2.png";
 export default function Header() {
   return (
     <div
@@ -17,13 +17,15 @@ export default function Header() {
               Lorem ipsum dolor sit amet.
             </h1>
             <p className="mt-4 text-lg text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus laboriosam accusantium labore incidunt aspernatur! Aspernatur ut recusandae exercitationem ipsam minima.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+              laboriosam accusantium labore incidunt aspernatur! Aspernatur ut
+              recusandae exercitationem ipsam minima.
             </p>
           </div>
           <div className="sm:w-1/3 mt-6 sm:mt-0 sm:ml-6">
             <img
               className="w-full h-auto rounded-lg shadow-lg"
-              src="/astronaut_2.png"
+              src={astronaut}
               alt="About Us"
               data-aos="fade-up"
               data-aos-duration="1000"
