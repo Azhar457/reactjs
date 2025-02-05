@@ -1,5 +1,5 @@
 import React from "react";
-
+import avatar from "../assets/avatar.png";
 export default function Profile() {
   return (
     <section id="profile" className="py-24 bg-gray-900 text-white">
@@ -8,7 +8,7 @@ export default function Profile() {
           <div className="sm:w-1/3 mt-6 sm:mt-0 sm:mr-6">
             <img
               className="w-full h-auto rounded-lg shadow-lg"
-              src="/avatar.png"
+              src={avatar}
               alt="Profile"
               data-aos="fade-right"
               style={{ animationDuration: "1s", filter: "invert(1)" }}
